@@ -1,0 +1,195 @@
+
+body{
+    font-family: Voltaire;
+    background-image: url("./heroPics/background.jpg");
+    font-size: 18px;
+    background-attachment: fixed;;
+    background-repeat: no-repeat;
+    border-color: #BEBEBE;
+}
+h1{
+    color:rgb(133, 3, 3);
+    font-size: 50px;
+}
+h3{
+    color:rgb(133, 3, 3);
+}
+
+.page-box{
+    margin: auto;
+    width: 1100px;
+    background-image: url("./heroPics/paper.jpg");
+    background-position: center left;
+    padding: 10px;
+
+    border-style: groove;
+   
+}
+.scroll{
+    margin-top: 400px;
+}
+
+.button-box{
+    height: 50px;
+}
+
+
+
+.random-button {
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(120,50,5);;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+              inset 0 -2px 5px 1px rgba(139,66,8,1),
+              inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    border: none;
+    border-radius: 15px;
+    
+}  
+.random-button:hover{
+
+    background-size: 1% 150%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+                  inset 0 -2px 5px 1px #b17d10,
+                  inset 0 -1px 1px 3px rgba(250,227,133,1);
+    border: 1px solid rgba(165,93,7,.6);
+    color: rgba(120,50,5,.8);
+
+}
+  
+.random-button:active {
+    background-color: #aa4219;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+
+.header{
+    text-align: center;
+
+}
+
+.button-box{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.chosen{
+    padding-left: 270px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    align-items: center;    
+    border: groove;
+    
+}
+.chosen Img{
+    width: 200px;
+    height: 250px;
+    
+}
+
+
+
+.sort-box{
+    
+
+    border-style: groove;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+
+.by-heros img{
+    
+    vertical-align: middle;
+    width: 50px;
+    padding: 15px;
+}
+
+.heros-intro{
+    text-align: center;
+}
+.heros-checkbox{
+   padding-left: 20px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+
+}
+
+
+.hero10{
+    text-align: center;
+    padding-left: 25px;
+    padding-bottom:30px ;
+}
+
+.deck-concept{
+
+    border-style: groove;
+    padding-left: 20px;
+}
+#kingCard{
+    width: 170px;
+    position: relative;
+    left: 110px;
+    transition: transform .2s;
+}
+#kingCard:hover{
+    transform: scale(1.5); 
+}
+
+
+.recomended {
+    display:grid;
+    grid-template-columns:50% 50%;
+    text-align: center;
+    padding-bottom: 20px;
+   
+
+}
+.cards{
+    border-style: groove;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.cards img{
+    width: 100px;
+    padding: 1px;
+    transition: transform .2s;
+}
+
+.cards img:hover{
+    transform: scale(2); 
+}
+
+
+
+.hero-cards{
+    border-style: groove;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.netural-cards{
+    border-style: groove;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
