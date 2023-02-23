@@ -5,7 +5,6 @@ A javascript based project which allow the user to generate concepts for deck bu
   <p align="center">
     <img src="/pic3.png"  style = " height: 350;  display:block; width:30%;"/>
     <img src="/pic2.png"  style = " height: 350;  display:block; width:30%;"/>
-    <img src="/pic1.png"  style = " height: 350;  display:block; width:30%;"/>
    </p>
 </div>
 
