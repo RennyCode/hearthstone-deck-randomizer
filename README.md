@@ -1,5 +1,5 @@
 ## Hearthstone Deck Randomizer
-A javascript based project which allow the user to generate concepts for deck building in Heartstone.
+A JavaScript based project which allow the user to generate concepts for deck building in Hearthstone.
 
 <div style = "padding-bottom: 150; padding-top: 150;">
   <p align="center">
@@ -10,9 +10,9 @@ A javascript based project which allow the user to generate concepts for deck bu
 
 
 ## Description
-In this webpage the user may select a Champion and presss randomize to get a random concept idea for that Champion, the concept are based in words found in card name or description that is taken from the Heartstone API.
+In this webpage the user may select a Champion and press randomize to get a random concept idea for that Champion, the concept is based in words found in card name or description that is taken from the Hearthstone API.
 
-The randomizer action will result in a selected concept and the proggram will recommend cards to fulfill that concept, cards from the champion catagory and cards that are available to all champions.
+The randomizer action will result in a selected concept and the program will recommend cards to fulfill that concept, cards from the champion category and cards that are available to all champions.
 
 <div style = "padding-bottom: 150; padding-top: 150">
    <p align="center">
